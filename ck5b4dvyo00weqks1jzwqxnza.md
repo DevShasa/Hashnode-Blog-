@@ -6,7 +6,7 @@ So naturally I google 'network usage monitors Ubuntu' and find a tool called vns
 
 ```$ sudo apt-install vnstat``` 
 
-I follow the rest of the instructions but vnstat is not logging and presenting data as it should. I re-read the instructions and there was a part that was unclear to me. In order to use vnstat, you have to point it to the right internet interface in your Linux setup. I had no idea what the instructions were talking about when they referred to interfaces but I nonetheless followed the instructions and ended referring to the interface used in the tutorial, which does not exist on my PC. 
+I follow the rest of the instructions but vnstat is not logging and presenting data as it should. I re-read the instructions and there was a part that was unclear to me. In order to use vnstat, you have to point it to the right internet interface in your Linux setup. I had no idea what the instructions were talking about when they referred to interfaces but I nonetheless followed the instructions and ended up referring to the interface used in the tutorial, which does not exist on my PC. 
 
 Another quick round of googling and I learn that each path to the internet that the PC uses has an interface. For instance if your PC has an ethernet port its interface may be eth1 or something. To check out the interfaces on my computer and find out which one is my wifi dongle I had to type the command.
 
