@@ -1,4 +1,8 @@
-#TODO let us reverse a string in python 
+#TODO Make improovements and upload  
+#Turning it into a function 
+
+def reverse_function(input_string):
+    #Code below goes in here to turn this into a function 
 
 #Step one, input the string
 normal_string = input('Enter string here: ')
@@ -15,4 +19,3 @@ while str_length > 0:
 
 print(reverse)
 
-#Implementing the same using a for loop 
