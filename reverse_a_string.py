@@ -1,13 +1,11 @@
-#TODO Make improovements and upload  
-#Turning it into a function 
-
+#Function that will reverse a string when called 
 def reverse_function(input_string):
-    #Code below goes in here to turn this into a function
     unreversed_str = input_string
+
     #Get the lengh of the string 
     strlength =  len(unreversed_str)
 
-    #Reverse the string
+    #Reverse the string using a while loop 
     reversed_str = ""
     while strlength > 0:
         reversed_str = reversed_str + unreversed_str[strlength - 1] 
@@ -16,6 +14,6 @@ def reverse_function(input_string):
     return reversed_str
 
 #Activating the function
-reverse_word = reverse_function("wolan")
+reverse_word = reverse_function("Reverse this")
 print(reverse_word)
 
